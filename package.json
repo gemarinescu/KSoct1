@@ -1,0 +1,10 @@
+{
+  "name": "millwork-school-preview",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Lightweight Cloudflare Workers static preview for Millwork School",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "wrangler deploy"
+  }
+}
